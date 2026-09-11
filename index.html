@@ -600,7 +600,7 @@
 
 <!-- ================= NAV ================= -->
 <nav class="nav">
-  <div class="nav-brand"><img class="nav-avatar" src="profile-pic.jpg" alt="Shubhangi">SHUBHANGI <em>· BEAUTY FULL SOUL</em></div>
+  <div class="nav-brand"><img class="nav-avatar" src="resources/profile-pic.jpg" alt="Shubhangi">SHUBHANGI <em>· BEAUTY FULL SOUL</em></div>
   <div class="nav-links">
     <a href="#about">Profile</a>
     <a href="#stats">Numbers</a>
@@ -618,7 +618,7 @@
     <div class="hero-copy">
       <div class="eyebrow">Beauty &amp; Lifestyle Creator — Delhi NCR</div>
       <h1 class="hero-name">Shubhangi<br><i>Beauty Full Soul</i></h1>
-      <div class="hero-handle"><img class="avatar" src="profile-pic.jpg" alt="Shubhangi profile picture"> @beauty_full_soul05 on Instagram</div>
+      <div class="hero-handle"><img class="avatar" src="resources/profile-pic.jpg" alt="Shubhangi profile picture"> @beauty_full_soul05 on Instagram</div>
       <p class="hero-tagline">Hinglish beauty storytelling for a generation that reads ingredient lists — from drugstore heroes to the luxury vanity edit. Real skin, real voice, real conversions.</p>
       <div class="hero-cta">
         <a class="btn filled" href="https://www.instagram.com/beauty_full_soul05" target="_blank" rel="noopener">View Instagram</a>
@@ -626,7 +626,7 @@
       </div>
     </div>
     <div class="hero-image-wrap">
-      <img src="hero-portrait.jpg" alt="Shubhangi, creator of @beauty_full_soul05">
+      <img src="resources/hero-portrait.jpg" alt="Shubhangi, creator of @beauty_full_soul05">
     </div>
   </div>
   <div class="hero-seal"><div class="seal"><span>BFS</span></div></div>
@@ -678,23 +678,23 @@
       <div class="chapter-num" style="color:var(--gold-bright); border-color:var(--gold-bright);">II</div>
       <div>
         <h2>The Numbers</h2>
-        <div class="section-kicker" style="color:var(--gold-bright);">90-day performance snapshot</div>
+        <div class="section-kicker" style="color:var(--gold-bright);" id="statsKicker">90-day performance snapshot — Jun 12 to Sep 10, 2026</div>
       </div>
       <div class="rule"></div>
     </div>
 
-    <div class="stat-strip">
-      <div class="stat-cell"><div class="num">8.1K</div><div class="label">Followers</div></div>
-      <div class="stat-cell"><div class="num">+3,473</div><div class="label">Net Follower Growth</div></div>
-      <div class="stat-cell"><div class="num">6,157</div><div class="label">Total Interactions</div></div>
-      <div class="stat-cell"><div class="num">1,507</div><div class="label">Accounts Reached</div></div>
+    <div class="stat-strip" id="statStrip">
+      <div class="stat-cell"><div class="num">10,498</div><div class="label">Followers</div></div>
+      <div class="stat-cell"><div class="num">11.1K</div><div class="label">Total Interactions</div></div>
       <div class="stat-cell"><div class="num">2.4K</div><div class="label">Reel Views</div></div>
-      <div class="stat-cell"><div class="num">1.6K</div><div class="label">Story Views</div></div>
-      <div class="stat-cell"><div class="num">6K</div><div class="label">Likes</div></div>
-      <div class="stat-cell"><div class="num">49%</div><div class="label">Reach Beyond Followers</div></div>
+      <div class="stat-cell"><div class="num">1.5K</div><div class="label">Unique Viewers</div></div>
+      <div class="stat-cell"><div class="num">11K</div><div class="label">Likes</div></div>
+      <div class="stat-cell"><div class="num">47</div><div class="label">Comments</div></div>
+      <div class="stat-cell"><div class="num">59</div><div class="label">Shares</div></div>
+      <div class="stat-cell"><div class="num">31</div><div class="label">Saves</div></div>
     </div>
 
-    <p class="stat-note">Nearly half of all reach in the last 90 days came from non-followers — a sign that content is consistently earning fresh discovery, not just recirculating to an existing audience.</p>
+    <p class="stat-note" id="statNote">Six reels over 90 days drove 11K likes alongside 47 comments, 59 shares, 28 reposts and 31 saves — engagement that runs well ahead of view volume, pointing to an audience that responds rather than scrolls past. Figures per Instagram account insights, Jun 12 – Sep 10, 2026.</p>
   </div>
 </section>
 
@@ -714,43 +714,59 @@
       <div>
         <div class="eyebrow" style="margin-bottom:18px;">Gender Split</div>
         <div class="donut-wrap">
-          <div class="donut">
-            <div class="donut-label"><b>8,172</b><span>Followers</span></div>
+          <div class="donut" id="genderDonut">
+            <div class="donut-label"><b id="donutFollowers">10,498</b><span>Followers</span></div>
           </div>
-          <div class="gender-key">
+          <div class="gender-key" id="genderKey">
             <div><span class="dot" style="background:var(--gold);"></span>Men — 61.7%</div>
             <div><span class="dot" style="background:var(--chocolate-soft);"></span>Women — 38.3%</div>
           </div>
         </div>
 
         <div class="eyebrow" style="margin:44px 0 18px;">Top Markets</div>
-        <div class="country-list">
-          <div class="country-row"><span>India</span><b>41.0%</b></div>
-          <div class="country-row"><span>United States</span><b>11.5%</b></div>
-          <div class="country-row"><span>Latvia</span><b>8.8%</b></div>
+        <div class="country-list" id="countryList">
+          <div class="country-row"><span>India</span><b>35.0%</b></div>
+          <div class="country-row"><span>United States</span><b>9.4%</b></div>
+          <div class="country-row"><span>Vietnam</span><b>6.8%</b></div>
+          <div class="country-row"><span>Bangladesh</span><b>6.7%</b></div>
+          <div class="country-row"><span>Latvia</span><b>6.6%</b></div>
         </div>
       </div>
 
       <div>
         <div class="eyebrow" style="margin-bottom:18px;">Age Range</div>
+        <div id="ageBars">
         <div class="bar-row">
-          <div class="top"><span>25–34</span><span>37.8%</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:37.8%;"></div></div>
+          <div class="top"><span>25–34</span><span>35.6%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:35.6%;"></div></div>
         </div>
         <div class="bar-row">
-          <div class="top"><span>18–24</span><span>30.3%</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:30.3%;"></div></div>
+          <div class="top"><span>18–24</span><span>26.9%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:26.9%;"></div></div>
         </div>
         <div class="bar-row">
-          <div class="top"><span>35–44</span><span>12.2%</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:12.2%;"></div></div>
+          <div class="top"><span>35–44</span><span>14.3%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:14.3%;"></div></div>
         </div>
         <div class="bar-row">
-          <div class="top"><span>45–54</span><span>7.3%</span></div>
-          <div class="bar-track"><div class="bar-fill" style="width:7.3%;"></div></div>
+          <div class="top"><span>45–54</span><span>11.0%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:11.0%;"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="top"><span>13–17</span><span>5.6%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:5.6%;"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="top"><span>55–64</span><span>4.8%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:4.8%;"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="top"><span>65+</span><span>1.9%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:1.9%;"></div></div>
+        </div>
         </div>
         <p style="margin-top:28px; color:var(--chocolate-soft); font-size:0.92rem; line-height:1.8; max-width:420px;">
-          Over two-thirds of the audience sits in the 18–34 window — prime purchasing age for skincare discovery, first premium beauty buys, and impulse-driven haul content.
+          Over three-fifths of the audience sits in the 18–34 window — prime purchasing age for skincare discovery, first premium beauty buys, and impulse-driven haul content.
         </p>
       </div>
     </div>
@@ -914,8 +930,8 @@
         <div class="embed-frame">
           <div>
             <div class="video-player-frame">
-              <video controls preload="metadata" poster="pilgrim-poster.jpg" playsinline>
-                <source src="pilgrim-video.mp4" type="video/mp4">
+              <video controls preload="metadata" poster="resources/pilgrim-poster.jpg" playsinline>
+                <source src="resources/pilgrim-video.mp4" type="video/mp4">
                 Your browser does not support inline video playback.
               </video>
             </div>
@@ -1131,6 +1147,210 @@
     });
   }, {threshold:0.12});
   revealEls.forEach(el=>io.observe(el));
+</script>
+
+<!-- ============ dynamic stats: parsed from the Instagram insights PDF ============ -->
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+<script>
+/*
+ * Reads resources/insights/Account insights for beauty_full_soul05.pdf at page load,
+ * extracts the account metrics from its text layer, and renders the Numbers and
+ * Audience sections from them. Drop a newer export in at the same path and the page
+ * picks up the new figures with no markup edits.
+ *
+ * The values already in the HTML are the last-known export and stay on screen if the
+ * PDF is missing or unreadable (e.g. opening index.html over file:// , where fetch is
+ * blocked — serve the folder over http:// to see live parsing).
+ */
+(function(){
+  var PDF_CANDIDATES = [
+    'resources/insights/Account insights for beauty_full_soul05.pdf'
+  ];
+
+  function num(raw){
+    if(raw == null) return null;
+    var v = String(raw).trim().replace(/,/g,'');
+    var m = v.match(/^([\d.]+)\s*([KM])?$/i);
+    if(!m) return null;
+    var n = parseFloat(m[1]);
+    if(!isFinite(n)) return null;
+    if(m[2]) n *= (m[2].toUpperCase() === 'M' ? 1e6 : 1e3);
+    return n;
+  }
+
+  function fmt(n){
+    if(n == null) return '—';
+    if(n >= 1e6) return (n/1e6).toFixed(1).replace(/\.0$/,'') + 'M';
+    if(n >= 1e4) return (n/1e3).toFixed(1).replace(/\.0$/,'') + 'K';
+    return Math.round(n).toLocaleString('en-US');
+  }
+
+  function metric(text, label){
+    var re = new RegExp(label.replace(/ /g,'\\s+') + '\\s+([\\d.,]+\\s*[KM]?)(?![%\\d])', 'i');
+    var m = text.match(re);
+    return m ? {n:num(m[1]), raw:m[1].replace(/\s+/g,'')} : null;
+  }
+
+  function parse(text){
+    var t = text.replace(/\s+/g,' ');
+    var d = {};
+
+    var f = t.match(/([\d][\d,]{2,})\s*followers/i) || t.match(/([\d.]+\s*[KM])\s*followers/i);
+    d.followers = f ? num(f[1]) : null;
+    d.followersLabel = f && /,/.test(f[1]) ? f[1] : fmt(d.followers);
+
+    d.raw = {};
+    ['Reel views','Viewers','Likes','Comments','Reposts','Shares','Saves','Reels'].forEach(function(k){
+      var hit = metric(t, k);
+      d[k] = hit ? hit.n : null;
+      if(hit) d.raw[k] = hit.raw;   // keep the PDF's own rounding, e.g. "2.4K"
+    });
+
+    var range = t.match(/([A-Z][a-z]{2}\s+\d{1,2}\s*[-–]\s*[A-Z][a-z]{2}\s+\d{1,2},\s*\d{4})/);
+    d.range = range ? range[1].replace(/\s*[-–]\s*/,' – ') : null;
+    var days = t.match(/(\d+)\s*days/i);
+    d.days = days ? days[1] : null;
+
+    var w = t.match(/([\d.]+)%\s*Women/i), m = t.match(/([\d.]+)%\s*Men/i);
+    d.women = w ? parseFloat(w[1]) : null;
+    d.men   = m ? parseFloat(m[1]) : null;
+
+    d.ages = [];
+    var ageRe = /\b(13-17|18-24|25-34|35-44|45-54|55-64|65\+)\s+([\d.]+)%/g, a;
+    while((a = ageRe.exec(t)) !== null){
+      if(!d.ages.some(function(x){ return x.label === a[1]; })) d.ages.push({label:a[1], pct:parseFloat(a[2])});
+    }
+
+    function ranked(heading, stopAt){
+      var from = t.search(new RegExp(heading,'i'));
+      if(from < 0) return [];
+      var slice = t.slice(from + heading.length);
+      if(stopAt){
+        var stop = slice.search(new RegExp(stopAt,'i'));
+        if(stop > 0) slice = slice.slice(0, stop);
+      }
+      var out = [], re = /\d\.\s*([A-Za-z][A-Za-z .'’-]*?)\s+([\d.]+)%/g, r;
+      while((r = re.exec(slice)) !== null) out.push({name:r[1].trim(), pct:parseFloat(r[2])});
+      return out;
+    }
+    d.countries = ranked('Top countries','Top cities');
+    d.cities    = ranked('Top cities','Exported from');
+
+    return d;
+  }
+
+  // prefer the abbreviation printed in the PDF ("2.4K") over re-deriving one
+  function shown(d, key){ return d.raw[key] || fmt(d[key]); }
+
+  function esc(v){ return String(v).replace(/[&<>]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; }); }
+
+  function render(d){
+    if(d.followers == null) return false;   // nothing usable — keep the static figures
+
+    var interactions = ['Likes','Comments','Reposts','Shares','Saves']
+      .reduce(function(sum,k){ return d[k] == null ? sum : sum + d[k]; }, 0);
+
+    var cells = [
+      ['Followers',          d.followersLabel],
+      ['Total Interactions', interactions ? fmt(interactions) : null],
+      ['Reel Views',         shown(d,'Reel views')],
+      ['Unique Viewers',     shown(d,'Viewers')],
+      ['Likes',              shown(d,'Likes')],
+      ['Comments',           shown(d,'Comments')],
+      ['Shares',             shown(d,'Shares')],
+      ['Saves',              shown(d,'Saves')]
+    ].filter(function(c){ return c[1] && c[1] !== '—'; });
+
+    var strip = document.getElementById('statStrip');
+    if(strip) strip.innerHTML = cells.map(function(c){
+      return '<div class="stat-cell"><div class="num">' + esc(c[1]) + '</div><div class="label">' + esc(c[0]) + '</div></div>';
+    }).join('');
+
+    var kicker = document.getElementById('statsKicker');
+    if(kicker && d.range) kicker.textContent = (d.days ? d.days + '-day' : '90-day') + ' performance snapshot — ' + d.range;
+
+    var note = document.getElementById('statNote');
+    if(note){
+      var bits = [];
+      ['Comments','Shares','Reposts','Saves'].forEach(function(k){
+        if(d[k] != null) bits.push(shown(d, k) + ' ' + k.toLowerCase());
+      });
+      note.textContent =
+        (d.Reels != null ? shown(d,'Reels') + ' reels' : 'Reels') +
+        (d.days ? ' over ' + d.days + ' days' : '') +
+        ' drove ' + shown(d,'Likes') + ' likes' +
+        (bits.length ? ' alongside ' + bits.join(', ').replace(/, ([^,]*)$/, ' and $1') : '') +
+        ' — engagement that runs well ahead of view volume, pointing to an audience that responds rather than scrolls past.' +
+        (d.range ? ' Figures per Instagram account insights, ' + d.range + '.' : '');
+    }
+
+    var donutCount = document.getElementById('donutFollowers');
+    if(donutCount) donutCount.textContent = d.followersLabel;
+
+    if(d.men != null && d.women != null){
+      var donut = document.getElementById('genderDonut');
+      if(donut){
+        var deg = (d.men / 100 * 360).toFixed(1);
+        donut.style.background = 'conic-gradient(var(--gold) 0deg ' + deg + 'deg, var(--chocolate-soft) ' + deg + 'deg 360deg)';
+      }
+      var key = document.getElementById('genderKey');
+      if(key) key.innerHTML =
+        '<div><span class="dot" style="background:var(--gold);"></span>Men — ' + d.men + '%</div>' +
+        '<div><span class="dot" style="background:var(--chocolate-soft);"></span>Women — ' + d.women + '%</div>';
+    }
+
+    if(d.countries.length){
+      var list = document.getElementById('countryList');
+      if(list) list.innerHTML = d.countries.slice(0,5).map(function(c){
+        return '<div class="country-row"><span>' + esc(c.name) + '</span><b>' + c.pct.toFixed(1) + '%</b></div>';
+      }).join('');
+    }
+
+    if(d.ages.length){
+      var bars = document.getElementById('ageBars');
+      if(bars) bars.innerHTML = d.ages.slice().sort(function(a,b){ return b.pct - a.pct; }).map(function(a){
+        var label = a.label.replace('-','–');
+        return '<div class="bar-row">' +
+                 '<div class="top"><span>' + esc(label) + '</span><span>' + a.pct.toFixed(1) + '%</span></div>' +
+                 '<div class="bar-track"><div class="bar-fill" style="width:' + a.pct + '%;"></div></div>' +
+               '</div>';
+      }).join('');
+    }
+
+    return true;
+  }
+
+  async function textOf(url){
+    var res = await fetch(encodeURI(url));
+    if(!res.ok) throw new Error(res.status + ' for ' + url);
+    var data = await res.arrayBuffer();
+    var pdf = await pdfjsLib.getDocument({data:data}).promise;
+    var out = '';
+    for(var i = 1; i <= pdf.numPages; i++){
+      var page = await pdf.getPage(i);
+      var content = await page.getTextContent();
+      out += content.items.map(function(it){ return it.str; }).join(' ') + '\n';
+    }
+    return out;
+  }
+
+  async function load(){
+    if(typeof pdfjsLib === 'undefined'){ console.warn('[insights] pdf.js unavailable — showing last-known figures'); return; }
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
+    for(var i = 0; i < PDF_CANDIDATES.length; i++){
+      try{
+        var parsed = parse(await textOf(PDF_CANDIDATES[i]));
+        if(render(parsed)){ console.info('[insights] stats loaded from', PDF_CANDIDATES[i]); return; }
+        console.warn('[insights] could not read metrics out of', PDF_CANDIDATES[i]);
+      }catch(err){
+        console.warn('[insights]', err.message);
+      }
+    }
+    console.warn('[insights] showing last-known figures from the markup');
+  }
+
+  load();
+})();
 </script>
 
 </body>
