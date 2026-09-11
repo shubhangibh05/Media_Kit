@@ -529,6 +529,25 @@
   @media (max-width:900px){ .video-player-frame{max-width:100%;} }
 
 
+  /* ---------- native Instagram embed (plays in-page) ---------- */
+  .ig-embed-frame{
+    position:relative;
+    border:1px solid var(--gold-bright);
+    box-shadow:0 0 0 1px var(--gold-bright), 0 20px 45px rgba(198,161,91,0.28);
+    padding:10px;
+    max-width:340px;
+    background:var(--chocolate-deep);
+  }
+  .ig-embed-frame iframe{
+    width:100%;
+    height:620px;
+    display:block;
+    border:0;
+    background:#000;
+  }
+  @media (max-width:900px){ .ig-embed-frame{max-width:100%;} }
+
+
   /* ---------- extra small screens ---------- */
   @media (max-width:600px){
     section{padding:76px 0;}
@@ -1082,6 +1101,29 @@
               <span class="ig-card-cta">Watch on Instagram <svg viewBox="0 0 12 12" fill="none" stroke="#E7C783" stroke-width="1.3"><path d="M2 10 L10 2 M4 2 H10 V8"/></svg></span>
             </span>
           </a>
+        </div>
+      </div>
+
+
+      <div class="work-row">
+        <div class="chapter-num">06</div>
+        <div class="work-meta">
+          <div class="tag">UGC · Skincare</div>
+          <h3>Medicube Gel Mask</h3>
+          <p>Kojic acid turmeric brightening gel mask, told as a before-and-after skin diary — the routine-led format that carries a K-beauty product into an everyday Indian skincare shelf.</p>
+          <div class="video-player-label" style="max-width:340px; margin-top:16px;">
+            <b>Playing Inline</b><span>Instagram embed</span>
+          </div>
+        </div>
+        <div class="embed-frame">
+          <div>
+            <div class="ig-embed-frame">
+              <iframe src="https://www.instagram.com/reel/DbFVCbZPtNV/embed/" title="Medicube Gel Mask reel on Instagram" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen scrolling="no" loading="lazy"></iframe>
+            </div>
+            <div style="text-align:center; margin-top:12px;">
+              <a href="https://www.instagram.com/reel/DbFVCbZPtNV/" target="_blank" rel="noopener" style="font-family:'Cinzel',serif; font-size:0.6rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--gold-dim);">View Original Reel on Instagram →</a>
+            </div>
+          </div>
         </div>
       </div>
 
